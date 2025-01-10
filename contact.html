@@ -6,18 +6,18 @@
     <title>Form Practice</title>
     <link rel="stylesheet" href="Styles/style.css">
 </head>
-<body>
+<body >
     <main>
         <h2>Fill Up the form and go to the website</h2>
-        <form action="">
-            <label for="name">Your Name :
-                <input id="name" placeholder="Your name" type="text">
+        <form >
+            <label for="text">Your Name :
+                <input id="text" placeholder="Your name" type="name">
             </label>
-            <label for="email">Your Email : 
-                <input id="email" placeholder="your email" type="text">
+            <label for="text">Your Email : 
+                <input id="text" placeholder="your email" type="email">
             </label>
-            <label for="password">Your password :
-                <input id="password" placeholder="Your password" type="text">
+            <label for="text">Your password :
+                <input id="text" placeholder="Your password" type="password">
             </label>
             <fieldset>
                 <legend>Choice one Motor-cycle</legend>
@@ -32,6 +32,25 @@
                     </label>
                 
             </fieldset>
+            <fieldset>
+                <legend>Choose Food</legend>
+                <label for="kala Vuna ">
+                <input type="checkbox" name="food" id="kala vuna">Cow Kala Vuna</label>
+                <label for="kacci">
+                    <input type="checkbox" name="food" id="kacci">kacci
+                </label>
+                <label for="Doi">
+                    <input type="checkbox" name="food" id="Doi">Doi
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Feedback</legend>
+                 <textarea placeholder="Write Your Feedback Please" name="" id="" cols="50" rows="10"></textarea>
+            </fieldset>
+            <br>
+            <input type="reset">
+            <button>Submit
+            </button>
         </form>
 
     </main>

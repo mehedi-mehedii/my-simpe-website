@@ -1,14 +1,19 @@
-nav > ul > li{
-    display: inline;
-    margin-right: 20px ;
+nav > ul{
+    display: flex;
+    margin-right: 10px ;
     /* text-align: right; */
     
 }
-nav li > a {
-    text-decoration: none;
+nav li{ 
+    list-style: none;
+    margin-right: 15px;
+    display:none
+
 }
+    
+
 .ok{
-    text-align: right;
+    /* text-align: right; */
 }
 table{
     border-collapse: collapse;
@@ -38,7 +43,15 @@ label{
     display: block;
     margin-bottom: 15px;
 }
-
-
+h2{
+    color:black;
+}
+#tt{
+    color: aqua;
+   font-size: 150px;
+}
+#soo{
+    background-color: aquamarine;
+}
     
     
