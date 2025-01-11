@@ -4,11 +4,26 @@ nav > ul{
     /* text-align: right; */
     
 }
+nav li:hover .ok {
+    display: block;
+    position: absolute;
+    padding-left: 0px;
+    background-color: aliceblue;
+   
+}
+
 nav li{ 
     list-style: none;
     margin-right: 15px;
-    display:none
-
+}
+nav li .ok{
+    display: none;
+}
+nav li:hover {
+    background-color: aquamarine;
+}
+nav li a {
+    text-decoration: none;
 }
     
 
